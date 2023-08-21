@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="https://kit.fontawesome.com/3b7db2044a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="parent_container">
+        <div>
+            <p>PASSWORD GENERATOR</p>
+        </div>
+        <div><input type="text" id="input_box">
+            <i class="fa-solid fa-copy"></i>
+        </div>
+        <div>
+            <div>
+                <span>Password Length</span><span id="number">10</span>
+            </div>
+            <div>
+                <input id="slider" type="range" min="1" max="20">
+            </div>
+            <div>
+                <div><input type="checkbox" checked id="uppercase" class="checkbox">
+                    <label for="uppercase">Include UpperCase Letters</label>
+                </div>
+                <div><input type="checkbox" id="lowercase" class="checkbox">
+                    <label for="lowercase">Include LowerCase Letters</label>
+                </div>
+                <div><input type="checkbox" id="numbers" class="checkbox">
+                    <label for="numbers">Include Numbers</label>
+                </div>
+                <div><input type="checkbox" id="symbols" class="checkbox">
+                    <label for="symbols">Include Symbols</label>
+                </div>
+            </div>
+            <div>
+                <span>Strength</span>
+                <span class="circle"></span>
+            </div>
+            <button id="generate_password">GENERATE PASSWORD</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: blue; /* Set your desired background color */
+  border-radius: 50%; /* This makes the element a circle by using half of its width as the border radius */
+}
